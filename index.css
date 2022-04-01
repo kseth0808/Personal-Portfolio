@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: Oxygen,sans-serif;
+    text-decoration: none;
+}
+.content{
+    min-height: 100vh;
+    color: white;
+    min-height: 100vh;
+}
+.content .main{
+    float: left;
+    margin-top: 18%;
+    margin-left: 18%;
+}
+.content .link{
+    display: flex;
+    list-style: none;
+}
+.content .link li a{
+    margin-right: 50px;
+    color: gray;
+}
+.content h2{
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 13px;
+}
+.content h3{
+    font-size: 17px;
+    font-weight: 400;
+    color: gray;
+}
